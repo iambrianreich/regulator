@@ -1,0 +1,18 @@
+{
+    "name": "reichwebconsulting/regulator",
+    "description": "A small utility library for rate limiting pretty much everything",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Reich Web Consulting",
+            "email": "help@reich-consulting.net"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "RWC\\Regulator\\" : "src/"
+        }
+    },
+    "require": {}
+}
